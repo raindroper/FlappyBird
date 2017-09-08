@@ -1,0 +1,42 @@
+html, body, a, li, img, p, ul, div, span, form, input, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 13px;
+    color: #333333;
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+    font-family: "微软雅黑", sans-serif;
+}
+
+a, a:hover {
+    color: #666666;
+    text-decoration: none;
+}
+
+input {
+    outline: none;
+    border: none;
+    border: 1px solid #CCCCCC;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0px;
+    clear: both;
+    visibility: hidden;
+}
